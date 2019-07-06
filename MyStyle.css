@@ -1,0 +1,100 @@
+/* element selector */
+h1 {
+    color: red;
+    text-align: center;
+}
+
+h2 {
+    color: Blue;
+    text-align: center;
+}
+
+h3 {
+    color: Green;
+}
+
+h4 {
+    margin: 10px 15px 10px 16px;
+}
+
+h6 {
+    color: Purple;
+}
+
+
+/* id selector */
+#Intro {
+    border-style: dotted solid;
+    border-radius: 5px;
+}
+
+#Description {
+    font-size: large;
+    text-align: center;
+}
+
+#PanelSlide {
+    margin-left: 16px;
+    padding: 50px;
+    display: none;
+}
+
+#PanelSlide, #Slide {
+    margin-left: 16px;
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#PanelFade {
+    margin-left: 16px;
+    padding: 50px;
+    display: none;
+}
+
+#PanelFade, #Fade {
+    margin-left: 16px;
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#ShowHide{
+    margin: 10px 15px 10px 16px;
+}
+
+#ShowHidePanel{
+    margin: 10px 15px 10px 16px;
+}
+
+/* class selector */
+.HeaderClass {
+    margin: 10px 15px 10px 8px;
+}
+
+.FadeClass{
+    margin: 10px 15px 10px 16px;
+}
+
+.AnimateClass{
+    margin: 10px 15px 10px 16px;
+}
+
+body {
+    background-color: lightskyblue;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 25%;
+}
+
+th {
+    text-align: left;
+}
